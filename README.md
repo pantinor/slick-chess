@@ -26,6 +26,10 @@ Check the pom.xml for the detail.
 I built slick2d dependency from the maven repo here:
 https://github.com/nguillaumin/slick2d-maven
 
+![screenshot of animated pieces](https://raw.github.com/pantinor/slick-chessp/master/chess2.png)
+
+![screenshot of regular pieces](https://raw.github.com/pantinor/slick-chessp/master/chess1.png)
+
 
 
 

@@ -30,8 +30,8 @@ public abstract class ChessBoard implements Constants {
 		this.game = game;
 		this.board = this.game.board;
 		
-		//this.boardMedia = new BoardMedia(BoardMedia.Type.SPRITES);
-		this.boardMedia = new BoardMedia(BoardMedia.Type.IMAGE);
+		this.boardMedia = new BoardMedia(BoardMedia.Type.SPRITES);
+		//this.boardMedia = new BoardMedia(BoardMedia.Type.IMAGE);
 		
 		topLeftBoardX = (container.getWidth() - boardWidth) / 2;
 		topLeftBoardY = (container.getHeight() - boardHeight) / 2;
