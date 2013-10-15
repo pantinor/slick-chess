@@ -9,6 +9,11 @@ Maven Notes:
 The Slick dependencies are not in a public Maven Nexus repository (not that I could find) so I patched them manually in my M2 local.
 Check the pom.xml for the detail. 
 
+I built slick2d dependency from the maven repo here:
+https://github.com/nguillaumin/slick2d-maven
+
+
+
 
 
 
