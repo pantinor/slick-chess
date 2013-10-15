@@ -10,6 +10,11 @@ You can switch the pieces by modifying ChessBoard.java program like this:
 		//this.boardMedia = new BoardMedia(BoardMedia.Type.SPRITES);
 		this.boardMedia = new BoardMedia(BoardMedia.Type.IMAGE);
 		
+You can switch the computer opponent manualy in the ChessGame.java here:
+
+		whiteParameters = new PlayerParameters("White", true);
+		blackParameters = new PlayerParameters("Black", false); //computer player
+		
 Original java chess source is here:
 https://github.com/Arwid/chess
 
