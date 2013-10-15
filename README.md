@@ -1,6 +1,7 @@
 Slick Chess
 
-Borrowed Java Chess code (Arvydas Bancewicz) and refactored with the Slick opengl library.
+Borrowed Java Chess code (from Arvydas Bancewicz) and refactored with the Slick opengl library.
+
 Added animations using sprite sheets.
 I used sprites from this website for the SPRITES image set: http://www.reinerstilesets.de/
 
@@ -8,6 +9,9 @@ You can switch the pieces by modifying ChessBoard.java program like this:
 
 		//this.boardMedia = new BoardMedia(BoardMedia.Type.SPRITES);
 		this.boardMedia = new BoardMedia(BoardMedia.Type.IMAGE);
+		
+Original java chess source is here:
+https://github.com/Arwid/chess
 
 Maven Notes:
 
