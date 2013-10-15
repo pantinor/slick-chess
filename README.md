@@ -15,6 +15,11 @@ You can switch the computer opponent manualy in the ChessGame.java here:
 		whiteParameters = new PlayerParameters("White", true);
 		blackParameters = new PlayerParameters("Black", false); //computer player
 		
+To run the program in eclipse, you will need to modify the working directory to load the dlls like this :
+(or else copy them into the main working directory next to the pom.xml):
+
+	${workspace_loc:slick-chess/target/classes
+		
 Original java chess source is here:
 https://github.com/Arwid/chess
 
