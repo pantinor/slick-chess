@@ -4,6 +4,11 @@ Borrowed Java Chess code (Arvydas Bancewicz) and refactored with the Slick openg
 Added animations using sprite sheets.
 I used sprites from this website for the SPRITES image set: http://www.reinerstilesets.de/
 
+You can switch the pieces by modifying ChessBoard.java program like this:
+
+		//this.boardMedia = new BoardMedia(BoardMedia.Type.SPRITES);
+		this.boardMedia = new BoardMedia(BoardMedia.Type.IMAGE);
+
 Maven Notes:
 
 The Slick dependencies are not in a public Maven Nexus repository (not that I could find) so I patched them manually in my M2 local.
